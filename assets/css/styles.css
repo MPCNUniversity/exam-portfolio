@@ -2,7 +2,7 @@
     box-sizing: border-box;
     margin:0;
     padding:0;
-    font-font: Poppins;
+    font-family: Inter;
 }
 /*FLEXBOX CLASSES*/
 /* Display Flex */
@@ -224,7 +224,7 @@
 @import url('https://fonts.googleapis.com/css2/family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 body{
-    background: black;
+    background: rgb(32,32,32);
     color: white;
 }
 
@@ -258,7 +258,7 @@ body{
 }
 
 .bgblack{
-    background: black;
+    background: rgb(32,32,32);
     color: lightgray;
 
 }
@@ -357,6 +357,12 @@ article{
 }
 .mleft30{
     margin-left: 30px;
+}
+.mtop10{
+    margin-top: 10px;
+}
+.mtop30{
+    margin-top: 30px;
 }
 .mtop50{
     margin-top: 50px;
