@@ -224,7 +224,7 @@
 @import url('https://fonts.googleapis.com/css2/family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 body{
-    background: rgb(32,32,32);
+    background: rgb(18,18,18);
     color: white;
 }
 
@@ -258,7 +258,7 @@ body{
 }
 
 .bgblack{
-    background: rgb(32,32,32);
+    background: rgb(18,18,18);
     color: lightgray;
 
 }
@@ -406,6 +406,7 @@ article{
 
 h2{
     color: white;
+    font-size: xx-large;
 }
 
 h3{
@@ -445,4 +446,27 @@ h4{
 }
 .heigth-100px{
     height: 100px;
+}
+.corners-15{
+    border-radius: 15px;
+}
+.corners-25{
+    border-radius: 25px;
+}
+.corners-35{
+    border-radius: 35px;
+}
+.lijn{
+    border-right: 1px solid lightgray;
+    height: 80%;
+    margin-right: 20px;
+}
+.bol{
+    background: #5b7cff;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+}
+.bolpositie{
+    width: 7.5px;
 }
