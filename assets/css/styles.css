@@ -1,0 +1,432 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+    font-font: Poppins;
+}
+/*FLEXBOX CLASSES*/
+/* Display Flex */
+.d-flex {
+    display: flex;
+}
+
+.d-inline-flex {
+    display: inline-flex;
+}
+
+/* Flex Direction */
+.flex-row {
+    flex-direction: row;
+}
+
+.flex-row-reverse {
+    flex-direction: row-reverse;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.flex-column-reverse {
+    flex-direction: column-reverse;
+}
+
+/* Flex Wrap */
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+.flex-nowrap {
+    flex-wrap: nowrap;
+}
+
+.flex-wrap-reverse {
+    flex-wrap: wrap-reverse;
+}
+
+/* Justify Content (horizontaal)*/
+.justify-content-start {
+    justify-content: flex-start;
+}
+
+.justify-content-end {
+    justify-content: flex-end;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.justify-content-between {
+    justify-content: space-between;
+}
+
+.justify-content-around {
+    justify-content: space-around;
+}
+
+.justify-content-evenly {
+    justify-content: space-evenly;
+}
+
+/* Align Items (verticaal) */
+.align-items-start {
+    align-items: flex-start;
+}
+
+.align-items-end {
+    align-items: flex-end;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.align-items-baseline {
+    align-items: baseline;
+}
+
+.align-items-stretch {
+    align-items: stretch;
+}
+
+/* Align Content */
+.align-content-start {
+    align-content: flex-start;
+}
+
+.align-content-end {
+    align-content: flex-end;
+}
+
+.align-content-center {
+    align-content: center;
+}
+
+.align-content-between {
+    align-content: space-between;
+}
+
+.align-content-around {
+    align-content: space-around;
+}
+
+.align-content-stretch {
+    align-content: stretch;
+}
+
+/* Align Self */
+.align-self-auto {
+    align-self: auto;
+}
+
+.align-self-start {
+    align-self: flex-start;
+}
+
+.align-self-end {
+    align-self: flex-end;
+}
+
+.align-self-center {
+    align-self: center;
+}
+
+.align-self-baseline {
+    align-self: baseline;
+}
+
+.align-self-stretch {
+    align-self: stretch;
+}
+
+/* Order */
+.order-first {
+    order: -1;
+}
+
+.order-last {
+    order: 13;
+}
+
+.order-0 {
+    order: 0;
+}
+
+.order-1 {
+    order: 1;
+}
+
+.order-2 {
+    order: 2;
+}
+
+.order-3 {
+    order: 3;
+}
+
+.order-4 {
+    order: 4;
+}
+
+.order-5 {
+    order: 5;
+}
+
+.order-6 {
+    order: 6;
+}
+
+.order-7 {
+    order: 7;
+}
+
+.order-8 {
+    order: 8;
+}
+
+.order-9 {
+    order: 9;
+}
+
+.order-10 {
+    order: 10;
+}
+
+.order-11 {
+    order: 11;
+}
+
+.order-12 {
+    order: 12;
+}
+
+/* Grow and Shrink */
+.flex-grow-0 {
+    flex-grow: 0;
+}
+
+.flex-grow-1 {
+    flex-grow: 1;
+}
+
+.flex-shrink-0 {
+    flex-shrink: 0;
+}
+
+.flex-shrink-1 {
+    flex-shrink: 1;
+}
+
+/*EIGEN CSS*/
+/*fonts*/
+
+@import url('https://fonts.googleapis.com/css2/family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body{
+    width: 1140px;
+    background: black;
+    color: white;
+}
+
+
+.logo{
+    width: 40px;
+    height: 40px;
+    border-radius: 15px;
+    background: linear-gradient(90deg, #7aa2ff 0%, #6cf0c2 100%);
+}
+
+.gradient-text{
+    background: linear-gradient(90deg, #7aa2ff 0%, #6cf0c2 100%);
+    -webkit-background-clip: text; /* nodig voor WebKit */
+    background-clip: text;
+    color: transparent;  /* maakt de tekst "doorzichtig" zodat de bg zichtbaar is */
+}
+
+.btn-brand{
+    color:#fff;background:#5b7cff;border:0;padding:12px 18px; border-radius:10px;cursor:pointer;
+}
+
+.navlink{
+    color:white;
+    text-decoration:none;
+    margin-right: 15px;
+}
+
+#headerwrap{
+    border-bottom:1px solid grey;
+    width: 1140px;
+}
+
+.bgblack{
+    background: black;
+
+}
+/*header*/
+
+header,#hewwd{
+    width:1250px;
+    margin:0 auto;
+    font-font: Poppins;
+
+}
+.btn-brand{
+    color:#fff;background:#5b7cff;border:0;padding:12px 18px; border-radius:10px;cursor:pointer;
+}
+
+/*hero*/
+.badge{
+    background:#f4f6ff; color:#2a3fa9; border:1px solid #e1e6ff; border-radius:999px; padding:6px 10px; font-size:12px;
+}
+h1{
+    font-size:60px;
+    font-weight:700;
+}
+span{
+    color:#5b7cff;
+}
+p{
+    color:lightgray;
+}
+.slogan{
+    font-size:20px;
+}
+.knop{
+    border: 2px solid transparent;
+    background: #5b7cff;
+    padding: 12px 18px;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+}
+.knop:hover{
+    border:2px solid #5b7cff;
+    color:#5b7cff;
+    background:#fff;
+}
+.gbutton{
+    border: 2px solid #6c757d;
+    background: black;
+    padding: 12px 18px;
+    border-radius: 10px;
+    color: lightgray;
+    font-size: 20px;
+    font-weight: 500;
+}
+.gbutton:hover{
+    border:2px solid transparent;
+    color:#fff;
+    background:#5b7cff;
+}
+/*section whatwedo*/
+article{
+    border-radius: 12px;
+    padding: 20px;
+    background: #26282b;
+}
+.wwdp{
+    padding:20px 0;
+}
+.wwdh3{
+    padding-top:20px;
+}
+.herostijl{
+    padding-top: 100px;
+    gap: 50px;
+}
+.mtop20{
+    margin-top: 20px;
+}
+.navheigth{
+    height: 70px;
+}
+.navstijl{
+    width: 200px;
+    padding-left: 16px;
+    font-weight: 700;
+}
+.mbottom15{
+    margin-bottom: 15px;
+}
+.mleft10{
+    margin-left: 10px;
+}
+.mleft20{
+    margin-left: 20px;
+}
+.mleft30{
+    margin-left: 30px;
+}
+.mtop50{
+    margin-top: 50px;
+}
+.pleft10{
+    padding-left: 10px;
+}
+.pleft20{
+    padding-left: 20px;
+}
+.pleft30{
+    padding-left: 20px;
+}
+.gap20{
+    gap: 20px;
+}
+.gap40{
+    gap: 40px;
+}
+.gap50{
+    gap: 50px;
+}
+
+
+
+
+.bottomline{
+    border-bottom: 1px solid grey;
+    margin: 10px 0px;
+    gap: 10px;
+}
+
+.omcirkeld{
+    border: 1px solid lightgray;
+    border-radius: 15px;
+    padding: 5px;
+    color: lightgray;
+}
+
+
+
+h2{
+    color: white;
+}
+
+h3{
+    color: lightgray;
+}
+h4{
+    color: #5b7cff;
+}
+
+.contentbox{
+    width: 100%;
+}
+
+.greencolor{
+    color: #6cf0c2;
+    border-radius: 15px;
+    padding: 5px;
+    font-size: small;
+}
+.greenborder{
+    color: #6cf0c2;
+    border: 1px dashed #6cf0c2;
+    border-radius: 15px;
+    padding: 5px;
+}
+
+.halfscreen{
+    width: 45%;
+}
