@@ -224,7 +224,6 @@
 @import url('https://fonts.googleapis.com/css2/family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 body{
-    width: 1140px;
     background: black;
     color: white;
 }
@@ -256,7 +255,6 @@ body{
 
 #headerwrap{
     border-bottom:1px solid grey;
-    width: 1140px;
 }
 
 .bgblack{
@@ -429,4 +427,8 @@ h4{
 
 .halfscreen{
     width: 45%;
+}
+
+.fullscreen{
+    width: 100%;
 }
